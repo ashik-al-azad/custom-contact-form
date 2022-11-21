@@ -1,0 +1,28 @@
+select{
+   padding: 5px;
+   background-color: salmon;
+   border: none;
+   border-radius: 5px;
+   display: block;
+}
+textarea{
+   border: 2px solid green;
+   border-radius: 5px;
+   margin-top: 10px;
+   text-align: center;
+   padding-top: 10px;
+   display: block;
+}
+input{
+   border: none;
+   margin-top: 10px;
+   background-color: indianred;
+   color: white;
+   padding: 5px;
+   border-radius: 5px; 
+}
+
+.medel{
+   width: 50%;
+   margin: 250px auto;
+}

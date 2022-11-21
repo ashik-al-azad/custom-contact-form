@@ -1,0 +1,49 @@
+input {
+   width: 50%;
+   margin: 10px 0 10px;
+   padding: 10px 5px;
+   border: 1px solid black;
+   background-color: black;
+   color: black;
+   border-radius: 5px;
+   font-weight: bold;
+   transition: 0.5s;
+   display: block;
+   margin: 5px auto;
+}
+
+label {
+   width: 50%;
+   font-weight: bold;
+   display: block;
+   margin: 5px auto;
+}
+
+#search {
+   background-image: url(image.png);
+   background-position: left;
+   background-size: 30px;
+   background-repeat: no-repeat;
+   background-color: orange;
+   width: 50%;
+   transition: 0.5s;
+}
+
+#search:focus {
+   width: 50%;
+   background-color: green;
+}
+
+input:hover {
+   background-color: yellow;
+}
+
+#search::placeholder {
+   color: red;
+   padding-left: 30px;
+}
+
+::placeholder {
+   color: white;
+   font-size: 17px;
+}
