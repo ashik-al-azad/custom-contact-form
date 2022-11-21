@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="popup-container" id="popup">
+        <div class="popup">
+            <h2>Welcome to the "different chat"</h2>
+            <p>This chat is kinda different than you might be used of using before.</p>
+            <p>Let's see if you figure out what's going on!</p>
+            <p>So... Enjoy! 😆</p>
+            <button id="close">Start chatting</button>
+        </div>
+    </div>
+
+    <div class="messages-container">
+        <ul class="messages" id="messages"></ul>
+        <form class="send-form" id="sendForm">
+            <input type="text" placeholder="Enter a message..." id="msg" autocomplete="off" />
+            <button type="submit">
+                <i class="fas fa-paper-plane"></i> Sends
+            </button>
+        </form>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
