@@ -1,0 +1,98 @@
+body{
+   margin: 0;
+   padding: 0;
+   font-family: arial;
+}
+.header-area{
+   background-color: #1877F2;
+   padding: 10px 0px;
+} 
+.meddil-area{
+   width: 80%;
+   margin: auto;
+}
+.logo-area a{
+   margin-top: 10px;
+   display: block;
+}
+.logo-area{
+   width: 30%;
+   float: left;
+}
+.login-area{
+   width: 70%;
+   float: left;
+}
+.header-area::after{
+   display: block;
+   content: '';
+   clear: both;
+}
+.login-first{
+   float: left;
+}
+.login-second{
+   float: left;
+}
+.login-submit{
+   float: left;
+}
+.login-area input{
+   display: block;
+   margin: 5px;
+   font-size: 15px;
+}
+.login-area label{
+   margin: 5px;
+   font-size: 15px;
+   display: block;
+   cursor: pointer;
+}
+.login-second a{
+   padding-left: 5px;
+   display: block;
+   text-decoration: none;
+   transition: .5s;
+}
+.login-second a:hover{
+   text-decoration: underline;
+}
+.login-submit input{
+   margin-top: 27px;
+   background-color: #1877F2;
+   color: #fff;
+   transition: .5s;
+   cursor: pointer;
+}
+.login-submit input:hover{
+   background-color: #0B10EE;
+}
+@media all and (max-width: 834px){
+   .meddil-area {
+      width: 95%;
+  }
+}
+@media all and (max-width: 703px){
+   .logo-area {
+      width: 100%;
+      float: none;
+      margin-bottom: 27px;
+  }
+  .login-area{
+     width: 100%;
+     float: none;
+  }
+  .login-area form{
+     float: none;
+  }
+  .login-first{
+   float: none;
+}
+.login-second{
+   float: none;
+}
+.login-submit{
+   float: none;
+}
+
+}
