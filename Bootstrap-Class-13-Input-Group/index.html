@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container py-5">
+
+<!-- Simple Input Group With Icon -->
+
+   <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text" id="basic-addon1"><i class="fa fa-user-circle"></i></span>
+      </div>
+      <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+    </div>
+
+<!-- Simple Input Group With checkbox -->
+
+   <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text" id="basic-addon1"><input type="checkbox"></span>
+      </div>
+      <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+    </div>
+
+<!-- Multiple Input Groups With Icon -->
+
+<div class="input-group">
+   <div class="input-group-prepend">
+      <span class="input-group-text"><i class="fa fa-user-circle"></i></span>
+     <span class="input-group-text">What Is Your Name<i class="fa fa-question mx-2"></i></span>
+   </div>
+   <input type="text" aria-label="First name" class="form-control" placeholder="First Name">
+   <input type="text" aria-label="Last name" class="form-control" placeholder="Last Name">
+ </div>
+
+ <!-- Custom Form File -->
+
+ <div class="input-group my-3">
+   <div class="input-group-prepend">
+     <label class="input-group-text" for="inputGroupSelect01">Options</label>
+   </div>
+   <select class="custom-select" id="inputGroupSelect01">
+     <option selected>Choose...</option>
+     <option value="1">One</option>
+     <option value="2">Two</option>
+     <option value="3">Three</option>
+   </select>
+ </div>
+
+ <!-- Custom Form File Input -->
+
+ <div class="input-group mb-3">
+   <div class="input-group-prepend">
+     <span class="input-group-text" id="inputGroupFileAddon01">Upload</span>
+   </div>
+   <div class="custom-file">
+     <input type="file" class="custom-file-input" id="inputGroupFile01" aria-describedby="inputGroupFileAddon01">
+     <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+   </div>
+ </div>
+
+</div>
+   
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
