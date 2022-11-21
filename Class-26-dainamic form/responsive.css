@@ -1,0 +1,37 @@
+@media screen and (max-width: 992px) {
+
+.colored-box {
+  width: 129%;
+  height: 100%;
+}
+
+}
+
+@media screen and (max-width: 767px){
+
+  .colored-box {
+    margin-top: 15px;
+    max-width: 100%;
+    font-size: 25px;
+}
+
+.contact-info i.fa{
+  position: absolute;
+  left: 0;
+  top: 12px;
+  font-size: 20px;
+}
+
+.social-icons{
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+}
+
+.btn{
+  padding: 10px 20px;
+}
+
+}

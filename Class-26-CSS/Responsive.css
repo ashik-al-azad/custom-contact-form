@@ -1,0 +1,25 @@
+@media all and (max-width: 944px){
+   .middle-area {
+      width: 100%;
+   }
+}
+@media all and (max-width: 763px){
+   .logo-area {
+      width: 100%;
+      float: none;
+      margin-bottom: 20px;
+   }
+   .login-area {
+      width: 100%;
+      float: none;
+   }
+   .login-first{
+      float: none;
+   }
+   .login-second{
+      float: none;
+   }
+   .submit-area{
+      float: none;
+}
+}

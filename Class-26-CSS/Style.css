@@ -1,0 +1,213 @@
+body{
+   margin: 0;
+   padding: 0;
+}
+.header-area{
+   background-color: #365999;
+   padding: 20px;
+}
+.middle-area{
+   width: 80%;
+   margin: auto;
+}
+.header-area::after{
+   content: '';
+   display: block;
+   clear: both;
+}
+.logo-area{
+   width: 25%;
+   float: left;
+   margin-top: 20px;
+}
+.login-area{
+   width: 75%;
+   float: left;
+}
+.login-first{
+   float: left;
+}
+.login-second{
+   float: left;
+}
+.submit-area{
+   float: left;
+}
+.login-area label{
+   display: block;
+   font-size: 20px;
+   margin-bottom: 5px;
+   cursor: pointer;
+   color: white;
+}
+.login-area input{
+   display: block;
+  margin-right: 10px;
+   font-size: 20px;
+  
+}
+.submit-area input{
+   margin-top: 29px;
+   background-color: #3F67B3;
+   cursor: pointer;
+   color: white;
+}
+.submit-area input:hover{
+   background-color: #1877F2;
+}
+.login-second a{
+   margin-top: 5px;
+   display: block;
+   color: white;
+   text-decoration: none;
+}
+.login-second a:hover{
+   text-decoration: underline;
+}
+
+/*Signup-Area*/
+.signup-area{
+   background: linear-gradient(#FBFDFE,#D8DDEC);
+}
+.signup-left{
+   float: left;
+   width: 50%;
+}
+.signup-right{
+   float: left;
+   width: 50%;
+}
+.signup-area::after{
+   content: '';
+   display: block;
+   clear: both;
+}
+.signup-left p{
+   color: #01123B;
+   font-weight: bold;
+   font-size: 20px;
+   width: 80%;
+   margin: 30px;
+}
+.img{
+   margin: 10% 20%;
+}
+.signup-right h1{
+   color: #333;
+   font-size: 30px;
+   margin-bottom: 5px;
+}
+.signup-right > p{
+   color: #365999;
+   font-size: 15px;
+   margin-bottom: 10px 0;
+}
+.signup-right input[type=text],.signup-right input[type=password]{
+   width: 100%;
+   font-size: 16px;
+   padding: 5px;
+   margin: 5px 0;
+   border-radius: 5px;
+   border: 1px solid #bdc7d8;
+} 
+.signup-right .username input:nth-child(1){
+   width: 48%;
+   float: left;
+}
+.signup-right .username input:nth-child(2){
+   width: 48%;
+   float: right;
+}
+.signup-right::after{
+   content: '';
+   clear: both;
+   display: block;
+}
+.bbbb-option{
+   padding: 5px;
+   font-size: 15px;
+}
+.birthday h2{
+  color: #333;
+  font-size: 20px;
+  margin: 5px 0;
+}
+.birthday::after{
+   content: '';
+   display: block;
+   clear: both;
+}
+.bbbb-option{
+   float: left;
+   margin-right: 0;
+}
+.bbb p{
+   float: left;
+   margin: 0;
+   width: 200px;
+   margin-left: 5px;
+   color: #365999;
+   font-size: 15px;
+}
+.gender{
+   margin-top: 5px;
+   padding: 5px;
+   color: #365999;
+   font-size: 20px;
+}
+.ggg p{
+   padding: 5px;
+   color: #333;
+   font-size: 20px;
+}
+.submit input{
+   background-color: #365999;
+   font-size: 25px;
+   border-radius: 5px;
+   color: #fff;
+   padding: 5px;
+}
+.submit input:hover{
+   background-color: #202340;
+}
+
+
+
+@media all and (max-width: 1198px){
+   .signup-left {
+      float: left;
+      width: 40%;
+   }
+   .signup-right {
+      float: left;
+      width: 60%;
+   }
+}
+@media all and (max-width: 799px){
+   .signup-right .username input:nth-child(1) {
+      width: 47%;
+      float: left;
+   }
+   .signup-right .username input:nth-child(2) {
+      width: 47%;
+      float: right;
+   }
+   .signup-right input[type="text"], .signup-right input[type="password"] {
+      width: 100%;
+}
+}
+@media all and (max-width: 998px){
+   .signup-left {
+      float: none;
+      width: 40%;
+   }
+   .signup-right {
+      float: none;
+      width: 60%;
+   }
+   .signup-right input[type="text"], .signup-right input[type="password"] {
+      width: 98%;}
+      .signup-right .username input:nth-child(1) {
+         width: 47%;}
+}
+   

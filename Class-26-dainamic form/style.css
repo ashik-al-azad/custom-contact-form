@@ -1,0 +1,108 @@
+a:focus, input:focus, textarea:focus, button:focus{
+  outline: none;
+}
+
+.section-padding{
+  padding: 80px 0px;
+  width: 100%;
+}
+
+.white-box{
+  box-shadow: 0 0 10px #656363;
+  padding: 30px;
+  border-radius: 3px;
+}
+
+input[type=text],input[type=email],input[type=password],input[type=tel],input[type=url],textarea{
+  background-color: #F9F9F9;
+  padding: 15px;
+  border: none;
+}
+
+.contact-form input,.contact-form textarea{
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.contact-form input[type=submit]{
+  width: auto;
+  margin: 0;
+}
+
+.contact-form textarea{
+  height: 140px;
+  resize: none;
+}
+
+.btn{
+  background-color: #4DAEFE;
+  color: #fff;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  transition: .5s;
+  font-weight: 700;
+}
+
+.colored-box{
+  background-color: #4DAEFE;
+  padding: 30px;
+  color: #fff;
+  min-height: 458px;
+  box-shadow: 0 0 10px #656363;
+  border-radius: 3px;
+}
+
+.colored-box a{
+  color: #fff;
+}
+
+.contact-info{
+  position: relative;
+  padding-left: 40px;
+  margin-bottom: 30px;
+}
+
+.contact-info i.fa{
+  position: absolute;
+  left: 0;
+  top: 3px;
+  font-size: 20px;
+}
+
+.colored-box h4, .white-box h4{
+  font-weight: 400;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+
+.social-icons a{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  color: #333;
+  background-color: #fff;
+  line-height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+  box-shadow: 0 0 3px #999;
+  transition: .3s;
+}
+
+.social-icons a:hover{
+  color: #52b0fb;
+  box-shadow: 0 0 0;
+}
+
+button i.fab.fa-facebook-messenger {
+  display: none;
+}
+
+button{
+  transition: .5s;
+}
+
+button:hover i.fab.fa-facebook-messenger {
+  display: inline-block;
+}
